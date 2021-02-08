@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Author: Hades
  * @Date: 2021-02-07 16:29:09
- * @LastEditTime: 2021-02-08 14:29:30
+ * @LastEditTime: 2021-02-08 15:08:32
  */
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +13,7 @@ class Routes {
 
   static String convexBottomBar = '/convexBottomBar';
   static String web = '/web';
-  
+  static String fluidNavBar = '/fluidNavBar';
 
   static void configRoutes(FluroRouter router){
     router.notFoundHandler = new Handler(
@@ -25,6 +25,7 @@ class Routes {
 
     router.define(convexBottomBar, handler: convexBottomBarHandler);
     router.define(web, handler: webHandler);
+    router.define(fluidNavBar, handler: fluidNavBarHandler);
 
 
   }

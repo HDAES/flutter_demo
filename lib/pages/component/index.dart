@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Author: Hades
  * @Date: 2021-02-07 16:03:59
- * @LastEditTime: 2021-02-08 10:29:33
+ * @LastEditTime: 2021-02-08 15:06:45
  */
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/routers/routes.dart';
@@ -19,7 +19,8 @@ class _ComponentPageState extends State<ComponentPage> {
       "name": "底部导航",
       "isExpanded": false,
       "children": [
-        {"name": "convex_bottom_bar", "url": Routes.convexBottomBar}
+        {"name": "convex_bottom_bar", "url": Routes.convexBottomBar},
+        {"name":"fluid_nav_bar", "url": Routes.fluidNavBar}
       ]
     },
     {
